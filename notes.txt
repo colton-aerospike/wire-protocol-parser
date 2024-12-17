@@ -1,3 +1,4 @@
+connector=true
 bin-policy=all
 write-policy=auto
 ship-bin-luts=false
@@ -49,6 +50,7 @@ DELETE
 
 
 
+connector=true
 bin-policy=changed-or-specified
 write-policy=auto
 ship-bin-luts=false
@@ -99,6 +101,7 @@ DELETE
 
 
 bin-policy=changed-or-specified
+connector=true
 write-policy=auto
 ship-bin-luts=true
 
@@ -149,6 +152,7 @@ DELETE
 2024/12/16 22:40:47 Field 4: msgSz=9 type=AS_MSG_FIELD_TYPE_LUT(14) data=0000016dea731abe
 
 
+connector=true
 bin-policy=no-bins
 write-policy=auto
 ship-bin-luts=true
@@ -199,6 +203,7 @@ DELETE
 
 
 
+connector=true
 bin-policy=no-bins
 write-policy=auto
 ship-bin-luts=false
